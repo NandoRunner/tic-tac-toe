@@ -1,6 +1,13 @@
+html {
+  display: table;
+  margin: auto;
+}
+
 body {
     font: 14px "Century Gothic", Futura, sans-serif;
-    margin: 20px;
+
+    display: table-cell;
+    vertical-align: middle;
   }
   
   ol, ul {
@@ -47,5 +54,9 @@ body {
   
   .game-info {
     margin-left: 20px;
+  }
+
+  .game-title {
+    margin-right: 20px;
   }
   

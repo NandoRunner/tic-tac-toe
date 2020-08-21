@@ -1,8 +1,4 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-
-  function Square(props) {
+function Square(props) {
     return (
       <button className="square" onClick={props.onClick}>
         {props.value}
@@ -105,13 +101,9 @@ import './index.css';
       } else {
         status = "Next player: " + (this.state.xIsNext ? "X" : "O");
       }
-      console.log(`${process.env.REACT_APP_NAME} v.${process.env.REACT_APP_VERSION}`)
-      
+
       return (
         <div className="game">
-          <div className="game-title">
-            <h3>v.{process.env.REACT_APP_VERSION}</h3>
-          </div>
           <div className="game-board">
             <Board
               squares={current.squares}
