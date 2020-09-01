@@ -1,5 +1,14 @@
 {
   "projects": {
     "default": "react-projs"
+  },
+  "targets": {
+    "react-projs": {
+      "hosting": {
+        "tictactoe-nandorunner": [
+          "tictactoe-nandorunner"
+        ]
+      }
+    }
   }
 }
